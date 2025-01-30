@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-01-27 11:23:04 by Eclipse SUMO sumo Version 1.21.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\seung\Documents\GIT\BO_UrbanMobility_Benchmark\network\quickstart\net.xml"/>
+        <route-files value="C:/Users/seung/Documents/GIT/BO_UrbanMobility_Benchmark/output/quickstart_bo_vanilla/BO/bayesOpt_14_0_trips.xml"/>
+        <additional-files value="C:\Users\seung\Documents\GIT\BO_UrbanMobility_Benchmark\network\quickstart\additional.xml"/>
+    </input>
+
+    <output>
+        <output-prefix value="output/quickstart_bo_vanilla/BO/bayesOpt_14_0_"/>
+        <vehroute-output value="routes.vehroutes.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="57600"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <xml-validation value="never"/>
+        <no-warnings value="true"/>
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <mesoscopic>
+        <mesosim value="true"/>
+    </mesoscopic>
+
+    <random_number>
+        <seed value="0"/>
+    </random_number>
+
+</sumoConfiguration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1meso_file.xsd">
+    <interval begin="0.00" end="3600.00" id="e1Detector_#EdgeL5_0" sampledSeconds="12150.36" density="33.85" laneDensity="11.28" occupancy="5.64" waitingTime="0.00" timeLoss="2535.92" speed="10.83" speedRelative="0.78" departed="0" arrived="0" entered="1320" left="1320"/>
+    <interval begin="0.00" end="3600.00" id="e1Detector_#EdgeL5_1" sampledSeconds="12150.36" density="33.85" laneDensity="11.28" occupancy="5.64" waitingTime="0.00" timeLoss="2535.92" speed="10.83" speedRelative="0.78" departed="0" arrived="0" entered="1320" left="1320"/>
+    <interval begin="0.00" end="3600.00" id="e1Detector_#EdgeL5_2" sampledSeconds="12150.36" density="33.85" laneDensity="11.28" occupancy="5.64" waitingTime="0.00" timeLoss="2535.92" speed="10.83" speedRelative="0.78" departed="0" arrived="0" entered="1320" left="1320"/>
+    <interval begin="0.00" end="3600.00" id="e1Detector_#EdgeL7_0" sampledSeconds="16391.76" density="45.67" laneDensity="15.22" occupancy="7.61" waitingTime="0.00" timeLoss="3648.36" speed="10.66" speedRelative="0.77" departed="0" arrived="0" entered="1753" left="1753"/>
+    <interval begin="0.00" end="3600.00" id="e1Detector_#EdgeL7_1" sampledSeconds="16391.76" density="45.67" laneDensity="15.22" occupancy="7.61" waitingTime="0.00" timeLoss="3648.36" speed="10.66" speedRelative="0.77" departed="0" arrived="0" entered="1753" left="1753"/>
+    <interval begin="0.00" end="3600.00" id="e1Detector_#EdgeL7_2" sampledSeconds="16391.76" density="45.67" laneDensity="15.22" occupancy="7.61" waitingTime="0.00" timeLoss="3648.36" speed="10.66" speedRelative="0.77" departed="0" arrived="0" entered="1753" left="1753"/>
+    <interval begin="3600.00" end="7200.00" id="e1Detector_#EdgeL5_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="3600.00" end="7200.00" id="e1Detector_#EdgeL5_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="3600.00" end="7200.00" id="e1Detector_#EdgeL5_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="3600.00" end="7200.00" id="e1Detector_#EdgeL7_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="3600.00" end="7200.00" id="e1Detector_#EdgeL7_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="3600.00" end="7200.00" id="e1Detector_#EdgeL7_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="7200.00" end="10800.00" id="e1Detector_#EdgeL5_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="7200.00" end="10800.00" id="e1Detector_#EdgeL5_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="7200.00" end="10800.00" id="e1Detector_#EdgeL5_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="7200.00" end="10800.00" id="e1Detector_#EdgeL7_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="7200.00" end="10800.00" id="e1Detector_#EdgeL7_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="7200.00" end="10800.00" id="e1Detector_#EdgeL7_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="10800.00" end="14400.00" id="e1Detector_#EdgeL5_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="10800.00" end="14400.00" id="e1Detector_#EdgeL5_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="10800.00" end="14400.00" id="e1Detector_#EdgeL5_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="10800.00" end="14400.00" id="e1Detector_#EdgeL7_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="10800.00" end="14400.00" id="e1Detector_#EdgeL7_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="10800.00" end="14400.00" id="e1Detector_#EdgeL7_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="14400.00" end="18000.00" id="e1Detector_#EdgeL5_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="14400.00" end="18000.00" id="e1Detector_#EdgeL5_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="14400.00" end="18000.00" id="e1Detector_#EdgeL5_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="14400.00" end="18000.00" id="e1Detector_#EdgeL7_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="14400.00" end="18000.00" id="e1Detector_#EdgeL7_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="14400.00" end="18000.00" id="e1Detector_#EdgeL7_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="18000.00" end="21600.00" id="e1Detector_#EdgeL5_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="18000.00" end="21600.00" id="e1Detector_#EdgeL5_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="18000.00" end="21600.00" id="e1Detector_#EdgeL5_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="18000.00" end="21600.00" id="e1Detector_#EdgeL7_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="18000.00" end="21600.00" id="e1Detector_#EdgeL7_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="18000.00" end="21600.00" id="e1Detector_#EdgeL7_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="21600.00" end="25200.00" id="e1Detector_#EdgeL5_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="21600.00" end="25200.00" id="e1Detector_#EdgeL5_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="21600.00" end="25200.00" id="e1Detector_#EdgeL5_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="21600.00" end="25200.00" id="e1Detector_#EdgeL7_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="21600.00" end="25200.00" id="e1Detector_#EdgeL7_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="21600.00" end="25200.00" id="e1Detector_#EdgeL7_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="25200.00" end="28800.00" id="e1Detector_#EdgeL5_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="25200.00" end="28800.00" id="e1Detector_#EdgeL5_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="25200.00" end="28800.00" id="e1Detector_#EdgeL5_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="25200.00" end="28800.00" id="e1Detector_#EdgeL7_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="25200.00" end="28800.00" id="e1Detector_#EdgeL7_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="25200.00" end="28800.00" id="e1Detector_#EdgeL7_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="28800.00" end="32400.00" id="e1Detector_#EdgeL5_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="28800.00" end="32400.00" id="e1Detector_#EdgeL5_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="28800.00" end="32400.00" id="e1Detector_#EdgeL5_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="28800.00" end="32400.00" id="e1Detector_#EdgeL7_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="28800.00" end="32400.00" id="e1Detector_#EdgeL7_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="28800.00" end="32400.00" id="e1Detector_#EdgeL7_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="32400.00" end="36000.00" id="e1Detector_#EdgeL5_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="32400.00" end="36000.00" id="e1Detector_#EdgeL5_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="32400.00" end="36000.00" id="e1Detector_#EdgeL5_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="32400.00" end="36000.00" id="e1Detector_#EdgeL7_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="32400.00" end="36000.00" id="e1Detector_#EdgeL7_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="32400.00" end="36000.00" id="e1Detector_#EdgeL7_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="36000.00" end="39600.00" id="e1Detector_#EdgeL5_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="36000.00" end="39600.00" id="e1Detector_#EdgeL5_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="36000.00" end="39600.00" id="e1Detector_#EdgeL5_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="36000.00" end="39600.00" id="e1Detector_#EdgeL7_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="36000.00" end="39600.00" id="e1Detector_#EdgeL7_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="36000.00" end="39600.00" id="e1Detector_#EdgeL7_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="39600.00" end="43200.00" id="e1Detector_#EdgeL5_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="39600.00" end="43200.00" id="e1Detector_#EdgeL5_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="39600.00" end="43200.00" id="e1Detector_#EdgeL5_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="39600.00" end="43200.00" id="e1Detector_#EdgeL7_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="39600.00" end="43200.00" id="e1Detector_#EdgeL7_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="39600.00" end="43200.00" id="e1Detector_#EdgeL7_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="43200.00" end="46800.00" id="e1Detector_#EdgeL5_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="43200.00" end="46800.00" id="e1Detector_#EdgeL5_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="43200.00" end="46800.00" id="e1Detector_#EdgeL5_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="43200.00" end="46800.00" id="e1Detector_#EdgeL7_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="43200.00" end="46800.00" id="e1Detector_#EdgeL7_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="43200.00" end="46800.00" id="e1Detector_#EdgeL7_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="46800.00" end="50400.00" id="e1Detector_#EdgeL5_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="46800.00" end="50400.00" id="e1Detector_#EdgeL5_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="46800.00" end="50400.00" id="e1Detector_#EdgeL5_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="46800.00" end="50400.00" id="e1Detector_#EdgeL7_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="46800.00" end="50400.00" id="e1Detector_#EdgeL7_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="46800.00" end="50400.00" id="e1Detector_#EdgeL7_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="50400.00" end="54000.00" id="e1Detector_#EdgeL5_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="50400.00" end="54000.00" id="e1Detector_#EdgeL5_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="50400.00" end="54000.00" id="e1Detector_#EdgeL5_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="50400.00" end="54000.00" id="e1Detector_#EdgeL7_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="50400.00" end="54000.00" id="e1Detector_#EdgeL7_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="50400.00" end="54000.00" id="e1Detector_#EdgeL7_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="54000.00" end="57600.00" id="e1Detector_#EdgeL5_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="54000.00" end="57600.00" id="e1Detector_#EdgeL5_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="54000.00" end="57600.00" id="e1Detector_#EdgeL5_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="54000.00" end="57600.00" id="e1Detector_#EdgeL7_0" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="54000.00" end="57600.00" id="e1Detector_#EdgeL7_1" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+    <interval begin="54000.00" end="57600.00" id="e1Detector_#EdgeL7_2" sampledSeconds="0.00" departed="0" arrived="0" entered="0" left="0"/>
+</detector>
